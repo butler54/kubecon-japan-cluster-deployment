@@ -1,0 +1,18 @@
+clusterGroup:
+  name: basic
+  isHubCluster: false
+
+  namespaces:
+    - myNamespace
+
+  subscriptions: {}
+
+  projects:
+    - myProject
+
+  applications:
+    myApp:
+      name: hello-world
+      namespace: myNamespace
+      project: myProject
+      path: charts/hello-world
