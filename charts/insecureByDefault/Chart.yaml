@@ -1,0 +1,6 @@
+apiVersion: v2
+description: A Helm chart to deploy gateway api components and
+keywords:
+- pattern
+name: gateway
+version: 0.0.1

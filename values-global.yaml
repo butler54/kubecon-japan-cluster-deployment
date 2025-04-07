@@ -1,6 +1,6 @@
 ---
 global:
-  pattern: multicloud-gitops
+  pattern: kubecon-japan
   options:
     useCSV: false
     syncPolicy: Automatic
